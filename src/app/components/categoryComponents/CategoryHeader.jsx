@@ -1,7 +1,6 @@
-
 import React, { useState } from 'react'
 import { FaSort,FaSortUp,FaSortDown, FaFilter } from "react-icons/fa";
-import CategoryPopup from './categoryPopup';
+import CategoryPopup from './CategoryPopup/CategoryPopup';
 const CategoryHeader = ({products,setProducts}) => {
     const [showModal, setShowModal] = useState(false);
     const [descending,setDescending] = useState(false)
@@ -15,6 +14,7 @@ const CategoryHeader = ({products,setProducts}) => {
         setProducts(sortedProducts);
         setDescending(!descending);
     }
+
     return (
         <>
         {/* contains the sorting and filtering btns  */}

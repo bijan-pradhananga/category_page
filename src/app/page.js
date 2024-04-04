@@ -1,5 +1,4 @@
 
-import CategoryPopup from "./components/categoryComponents/categoryPopup";
 import CategoryHeader from "./components/categoryComponents/CategoryHeader";
 import CategoryBody from "./components/categoryComponents/CategoryBody";
 import Banner from "./components/BannerComponents/Banner";

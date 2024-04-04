@@ -8,7 +8,7 @@ const ProductCardBody = ({product}) => {
         <div className="w-full mt-2 mb-2">
           <ProductCardInfos product={product}/>
           <ProductCardSizes/>
-      </div>
+        </div>
     </div>
   )
 }

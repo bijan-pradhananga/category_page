@@ -22,7 +22,9 @@ const CategoryHeader = ({products,setProducts}) => {
             <div onClick={()=>{sortByPrice()}} className="flex w-5/12 bg-gray-200 hover:bg-gray-300 transition-colors duration-300 ease-in  px-2 py-1 justify-between items-center cursor-pointer rounded shadow-[0_3px_10px_rgb(0,0,0,0.2)] md:w-auto md:mr-4">
                 <span className='md:mr-2'>Sort By Price</span>
                 {/* show the fasort icon at first if someone clicks it sort it and change icon  */}
-                {sorted === false ? <FaSort /> : descending ? <FaSortDown /> : <FaSortUp />}
+                {sorted === false ? <FaSort /> : 
+                    descending ? <FaSortDown className=' text-red-600' /> : <FaSortUp className='text-green-500' />
+                }
             </div>
             <div onClick={() => {setShowModal(true)}} className="flex w-5/12 bg-gray-200  hover:bg-gray-300 transition-colors duration-300 ease-in px-2 py-1 justify-between items-center cursor-pointer rounded shadow-[0_3px_10px_rgb(0,0,0,0.2)] md:w-auto">
                 <span className='md:mr-2'>Filter </span>

@@ -14,8 +14,8 @@ const categoryPopup = ({ setShowModal }) => {
                 Filter
               </h3>
               <FaXmark className="font-bold 500 text-xl" onClick={() => setShowModal(false)} />
-             
             </div>
+            {/*header*/}
             {/*body*/}
             <div className="relative flex-auto">
                 <div className="bg-white rounded px-6 pt-4 pb-3">
@@ -43,6 +43,7 @@ const categoryPopup = ({ setShowModal }) => {
                   </div>
                 </div>  
             </div>
+            {/*body*/}
             {/*footer*/}
             <div className="flex items-center justify-end p-4 border-t border-solid border-blueGray-200 rounded-b">
               <button
@@ -53,6 +54,7 @@ const categoryPopup = ({ setShowModal }) => {
                 Apply
               </button>
             </div>
+            {/*footer*/}
           </div>
         </div>
       </div>

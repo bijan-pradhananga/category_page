@@ -5,7 +5,7 @@ import ProductCardSizes from './ProductCardSizes'
 const ProductCardBody = () => {
   return (
     <div>       
-        <div className="categoryProductInfo w-full mt-2 mb-2">
+        <div className="w-full mt-2 mb-2">
           <ProductCardInfos/>
           <ProductCardSizes/>
       </div>
